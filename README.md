@@ -1,6 +1,6 @@
 # Regression, Regularization, and Over-Parameterization
 
-This project explores the principles of regression analysis and regularization techniques, including Ridge and Lasso regression, to evaluate the effects of under-parameterization and overparameterization on model performance. Through Python-based implementations, it examines key concepts such as bias-variance tradeoff, optimization, and feature selection, providing insights into building robust and interpretable machine learning models.
+This project focuses on exploring key concepts in regression, including data generation, linear model fitting, regularization techniques, and parameterization analysis. I generated a synthetic dataset with structured relationships and noise, then I implemented a linear regression model to predict output values based on input features. The project introduces ridge and lasso regularization methods to demonstrate how penalties on model complexity affect the resulting weights and generalization. Additionally, it examines the effects of under-parameterization (fewer features than data points) and over-parameterization (more features than data points) on model performance. Through each step, I was able to analyze training and testing losses, visualize error trends, and investigate how the size of the training data and regularization strength influence the outcomes. This project integrates programming tasks in Python using PyTorch and encourages critical analysis of regression principles and their practical implications.
 
 
 ## Table of Contents
@@ -87,6 +87,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Important Note
 
-```bash
 This code is intended for educational purposes only; Use this repository responsibly.
-```
