@@ -29,7 +29,7 @@ This project focuses on exploring key concepts in regression, including data gen
   - Over-parameterization (more features than data points) and its relationship with testing error
 
 - **Visualization**: 
-    - Loss and error trends as a function of parameters like regularization strength and feature dimensionality
+  - Loss and error trends as a function of parameters like regularization strength and feature dimensionality
   
 
 ## Usage
@@ -47,7 +47,8 @@ This project focuses on exploring key concepts in regression, including data gen
 
 ## Code Structure
 
-- **Data Generation**: Functions to generate the input matrix `X` and output `y` using noise and dependencies as specified in the homework
+- **Data Generation**: 
+  - Functions to generate the input matrix `X` and output `y` using noise and dependencies as specified in the homework
 
 - **Model Implementation**:
   - `linear_model`: Calculates predictions for a given set of weights
@@ -64,7 +65,8 @@ This project focuses on exploring key concepts in regression, including data gen
 
 ## Requirements
 
-- **Python**: 3.8 or later
+- **Python**: 
+  - 3.8 or later
 
 - **Required libraries**:
   - `torch`
