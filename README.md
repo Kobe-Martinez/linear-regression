@@ -14,10 +14,12 @@ This project focuses on exploring key concepts in regression, including data gen
 
 
 ## Features
-- **Data Generation**: Creation of custom datasets with random noise and structured relationships among features
-
-- **Linear Regression**: Implementation of a linear model with a loss function to minimize squared errors
-
+- **Data Generation**: 
+  - Creation of custom datasets with random noise and structured relationships among features
+    
+- **Linear Regression**: 
+  - Implementation of a linear model with a loss function to minimize squared errors
+    
 - **Regularization Techniques**:
   - Ridge regression for reducing model complexity and penalizing large weights
   - Lasso regression for feature selection and sparsity
@@ -26,7 +28,8 @@ This project focuses on exploring key concepts in regression, including data gen
   - Impact of under-parameterization (fewer features than data points)
   - Over-parameterization (more features than data points) and its relationship with testing error
 
-- **Visualization**: Loss and error trends as a function of parameters like regularization strength and feature dimensionality
+- **Visualization**: 
+    - Loss and error trends as a function of parameters like regularization strength and feature dimensionality
   
 
 ## Usage
